@@ -4,10 +4,10 @@
 _ Error220
 
 ## Integrantes del grupo✒️
-Angie Argudo
-Jocelyn Chicaiza
-Juan Jose Loor
-Ricardo Rivera
+_ Angie Argudo
+_ Jocelyn Chicaiza
+_ Juan Jose Loor
+_ Ricardo Rivera
 
 ## Descripción del proyecto
 
