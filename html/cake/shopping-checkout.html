@@ -70,7 +70,7 @@
 			================================================== -->
 		<section class="page-banner-section delivery">
 			<div class="container">
-				<p>You are here: <a href="index.html">Home</a> / <a href="shopping-checkout.html">Checkout</a></p>
+				
 			</div>
 		</section>
 		<!-- End page-banner section -->
@@ -82,92 +82,85 @@
 				<form class="billing-box">
 					<div class="row">
 						<div class="col-lg-6">
-							<h2>Billing Details</h2>
+							<h2>Detalles de Factura</h2>
 							<div class="row">
 								<div class="col-md-6">
-									<input type="text" name="first-name" placeholder="first name*"/>
+									<input type="text" name="first-name" placeholder="Nombres"/>
 								</div>
 								<div class="col-md-6">
-									<input type="text" name="last-name" placeholder="last name*"/>
+									<input type="text" name="last-name" placeholder="Apellidos"/>
 								</div>
 							</div>
-							<input type="text" name="company" placeholder="company name (optional)"/>
-							<label for="country">Country*</label>
-							<input type="text" name="country" placeholder="country" id="country"/>
-							<label for="address">Street address*</label>
-							<input type="text" name="address" placeholder="house number and street name" id="address"/>
-							<input type="text" name="city" placeholder="town/city*"/>
-							<input type="text" name="postcode" placeholder="postcode / zip*"/>
-							<input type="text" name="phone" placeholder="phone*"/>
-							<input type="text" name="email" placeholder="email*"/>
+							<input type="text" name="company" placeholder="Cedula/Ruc"/>
+							<label for="country">Ciudad</label>
+							<input type="text" name="country" placeholder="Ciudad" id="country"/>
+							<label for="address">Direccion</label>
+							<input type="text" name="address" placeholder="Calles" id="address"/>
+							<input type="text" name="phone" placeholder="celular*"/>
+							<input type="text" name="email" placeholder="correo*"/>
 						</div>
 						<div class="col-lg-6">
 							<div class="optional-box">
 								<input type="checkbox" name="diff-addres" id="diff-address"/>
-								<h2>Ship to a different address?</h2>
-								<textarea name="order-notes" placeholder="Order notes (optional)"></textarea>
+								<h2>Alguna especificacion sobre la direccion de envio?</h2>
+								<textarea name="order-notes" placeholder="Notas adicionales de la orden"></textarea>
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="inner-total">
-								<h2>Your Order</h2>
+								<h2>Tu orden</h2>
 								<div class="table-responsive">
 									<table class="table">
 										<thead>
 											<tr>
-												<th>Product</th>
+												<th>Producto</th>
 												<th>Total</th>
 											</tr>
 										</thead>
 										<tr>
-											<td>Aliquam tincidunt mauris</td>
-											<td>1 x $59.99</td>
+											<td>Waffle Brownie</td>
+											<td>1 x $4.99</td>
 										</tr>
 										<tr>
-											<td>Cras iaculis ultricies nulla</td>
-											<td>1 x $139.99</td>
+											<td>Waflle Clasico</td>
+											<td>1 x $3.99</td>
 										</tr>
 										<tr>
-											<td>Cart Subtotal</td>
-											<td>$199.98</td>
+											<td>Subtotal</td>
+											<td>$8.98</td>
 										</tr>
 										<tr>
-											<td>Shipping and Handling</td>
-											<td>Free Shipping</td>
+											<td>Costos de envio</td>
+											<td>Envio Gratis</td>
 										</tr>
 										<tr>
-											<td>Order Total</td>
-											<td>$199.98</td>
+											<td>Total de la orden</td>
+											<td>$9.98</td>
 										</tr>
 									</table>
 								</div>
 							</div>
 							<ul class="pay-list">
+								<h2> Metodo de Pago</h2> <br>
 								<li>
 									<input type="radio" name="pay-method" id="direct-bank"/>
 									<div class="checkbox-content">
-										<span>Direct Bank Transfer</span>
-										<p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+										<span>Transferencia Bancaria</span>
+										<p> Realiza tu pago por transferencia bancaria directa la cuenta #3459820342. Tu orden sera enviada una vez se confirme el pago.</p>
 									</div>
 								</li>
-								<li>
-									<input type="radio" name="pay-method" id="cheque-payment"/>
-									<div class="checkbox-content">
-										<span>Cheque Payment</span>
-										<p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
-									</div>
-								</li>
+							
 								<li>
 									<input type="radio" name="pay-method" id="paypal"/>
 									<div class="checkbox-content">
-										<span>Paypal</span>
-										<p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+										<span>Efectivo</span>
+										<p>Paga en efectivo una vez se realice la entrega de la orden en tu domicilio.</p>
 									</div>
 								</li>
 							</ul>
-							<a class="button-one grey" href="#">Place Order</a>
+							<a class="button-one grey" href="#">Confirmar orden</a>
 						</div>
 					</div>
 				</form>
@@ -177,70 +170,66 @@
 
 		<!-- footer 
 			================================================== -->
-		<footer>
-			<div class="upper-footer">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3">
-							<div class="widgets-area">
-								<div class="footer-widget text-widget">
-									<h2>Opening hours</h2>
-									<ul class="working-list">
-										<li>
-											<span>Monda - Friday</span> <span class="right-align">08:00 - 23:00h</span>
-										</li>
-										<li>
-											<span>Saturday</span> <span class="right-align">08:00 - 23:00h</span>
-										</li>
-										<li>
-											<span>Sunday</span> <span class="right-align">08:00 - 23:00h</span>
-										</li>
-									</ul>
-								</div>
-								<div class="footer-widget text-widget">
-									<h2>our address</h2>
-									<p>Pizzeria Head Office <br>54866 2nd Road NY 48766<br> Ney York, U.S.A</p>
-
-									<p>Make Reservations: 0 800 111 555 666 <br> Email: info@yourdomain.com</p>
+			<footer>
+				<div class="upper-footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-3">
+								<div class="widgets-area">
+									<div class="footer-widget text-widget">
+										<h2>Horarios de Atencion</h2>
+										<ul class="working-list">
+											<li>
+												<span>Martes - Domingo</span> <span class="right-align">16:00 - 22:00h</span>
+											</li>
+										</ul>
+										<h3>Pedidos a domicilio disponibles</h3>
+									</div>
+									<div class="footer-widget text-widget">
+										<h2>Nuestra direccion</h2>
+										<p>Waffle Restaurant<br>Av. Samuel Cisneros y los Shiris<br> Duran</p>
+										<p>Comunicate con nosotros al : 0983644064 <br> Email: wafflestopec@gmail.com</p>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="map-holder">
-								<div class="map"></div>
-								<div class="order-btn-box">
-									<a class="button-one" href="#">make your order now!</a>
+							<div class="col-lg-6">
+								<div class="map-holder">
+									<div class="map">
+									<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1arIlC8SF9yfASammRv-mVPebAtL6JvFi" width="440" height="380"></iframe>
+									</div>
+									<div class="order-btn-box">
+										<a class="button-one" href="#">Realiza tu orden ya!</a>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-3">
-							<div class="widgets-area">
-								<div class="footer-widget subscribe-widget">
-									<h2>subscribe now</h2>
-									<p>Subscribe now for our new updates and get regular offers and stuff</p>
-									<form id="subscribe-form">
-										<input type="text" name="email" id="email" placeholder="Enter Your Email"/>
-										<input type="submit" id="submit_subscribe" value="Subscribe">
-									</form>
-								</div>
-								<div class="footer-widget social-widget">
-									<h2>Social Networks</h2>
-									<ul class="social-icons">
-										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-									</ul>
+							<div class="col-lg-3">
+								<div class="widgets-area">
+									<div class="footer-widget subscribe-widget">
+										<h2>Suscribete ahora</h2>
+										<p>Suscribete ahora para recibir nuevas notificas y ofertas</p>
+										<form id="subscribe-form">
+											<input type="text" name="email" id="email" placeholder="Ingresa tu correo"/>
+											<input type="submit" id="submit_subscribe" value="Suscribirse">
+										</form>
+									</div>
+									<div class="footer-widget social-widget">
+										<h2>Redes Sociales</h2>
+										<ul class="social-icons">
+											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="copyright-line">
-				<p><span>Waffle Stop &copy;</span> 2020 for DAWM by <span>TEAM ERROR 404</span></p>
-			</div>
-		</footer>
+				<div class="copyright-line">
+					<p><span>Waffle Stop &copy;</span> 2020 for DAWM by <span>TEAM ERROR 404</span></p>
+				</div>
+			</footer>
 		<!-- End footer -->
 
 	</div>
