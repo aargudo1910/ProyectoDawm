@@ -3348,7 +3348,7 @@ section.location-section .location-box .location-address p {
   margin-bottom: 0;
   line-height: 24px;
 }
-section.location-section .map {
+section.location-section .mapa {
   height: 850px;
 }
 
@@ -3779,7 +3779,7 @@ footer .upper-footer .widgets-area ul.social-icons li a:hover {
 footer .upper-footer .map-holder {
   position: relative;
 }
-footer .upper-footer .map-holder .map {
+footer .upper-footer .map-holder .mapa {
   height: 480px;
 }
 footer .upper-footer .map-holder .order-btn-box {
