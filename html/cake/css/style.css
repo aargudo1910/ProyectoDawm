@@ -254,6 +254,14 @@ header.active .navbar {
   visibility: visible;
 }
 
+#pc {
+  color: #000000;
+}
+
+.item-content h6 {
+  font-style: italic;
+}
+
 .navbar-nav.active > li > a {
   opacity: 0;
   visibility: hidden;
