@@ -132,7 +132,7 @@
 						</div>
 						<div class="right-buttons">
 							<a href="#" class="button-one grey">Actualizar carrito</a>
-							<a href="./shopping-checkout.html" class="button-one grey">Proceder con el pago</a>
+							<a  id="yo" class="button-one grey">Proceder con el pago</a>
 						</div>
 					</div>
 					<div class="total-box">
@@ -170,7 +170,95 @@
 			</div>
 		</section>
 		<!-- End shopping-cart section -->
-
+		<section class="shopping-cart-section" id="proceso" >
+			<div class="container">
+				<form class="billing-box">
+					<div class="row">
+						<div class="col-lg-6">
+							<h2>Detalles de Factura</h2>
+							<div class="row">
+								<div class="col-md-6">
+									<input type="text" name="first-name" placeholder="Nombres"/>
+								</div>
+								<div class="col-md-6">
+									<input type="text" name="last-name" placeholder="Apellidos"/>
+								</div>
+							</div>
+							<input type="text" name="company" placeholder="Cedula/Ruc"/>
+							<label for="country">Ciudad</label>
+							<input type="text" name="country" placeholder="Ciudad" id="country"/>
+							<label for="address">Direccion</label>
+							<input type="text" name="address" placeholder="Calles" id="address"/>
+							<input type="text" name="phone" placeholder="celular*"/>
+							<input type="text" name="email" placeholder="correo*"/>
+						</div>
+						<div class="col-lg-6">
+							<div class="optional-box">
+								<input type="checkbox" name="diff-addres" id="diff-address"/>
+								<h2>Alguna especificacion sobre la direccion de envio?</h2>
+								<textarea name="order-notes" placeholder="Notas adicionales de la orden"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="inner-total">
+								<h2>Tu orden</h2>
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th>Producto</th>
+												<th>Total</th>
+											</tr>
+										</thead>
+										<tr>
+											<td>Waffle Brownie</td>
+											<td>1 x $4.99</td>
+										</tr>
+										<tr>
+											<td>Waflle Clasico</td>
+											<td>1 x $3.99</td>
+										</tr>
+										<tr>
+											<td>Subtotal</td>
+											<td>$8.98</td>
+										</tr>
+										<tr>
+											<td>Costos de envio</td>
+											<td>Envio Gratis</td>
+										</tr>
+										<tr>
+											<td>Total de la orden</td>
+											<td>$9.98</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<ul class="pay-list">
+								<h2> Metodo de Pago</h2> <br>
+								<li>
+									<input type="radio" name="pay-method" id="direct-bank"/>
+									<div class="checkbox-content">
+										<span>Transferencia Bancaria</span>
+										<p> Realiza tu pago por transferencia bancaria directa la cuenta #3459820342. Tu orden sera enviada una vez se confirme el pago.</p>
+									</div>
+								</li>
+							
+								<li>
+									<input type="radio" name="pay-method" id="paypal"/>
+									<div class="checkbox-content">
+										<span>Efectivo</span>
+										<p>Paga en efectivo una vez se realice la entrega de la orden en tu domicilio.</p>
+									</div>
+								</li>
+							</ul>
+							<a class="button-one grey mb-2 " href="./index.html">Confirmar orden</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
 		<!-- footer 
 			================================================== -->
 			<footer>
@@ -190,7 +278,8 @@
 	<script src="js/jquery.themepunch.tools.min.js"></script>
 	<script src="js/jquery.themepunch.revolution.min.js"></script>
 	<script src="js/script.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiqrIen8rWQrvJsu-7f4rOta0fmI5r2SI&amp;sensor=false&amp;language=en"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiqrIen8rWQrvJsu-7f4rOta0fmI5r2SI&amp;sensor=false&amp;language=en"></script>
+	<script src="./js/animacion.js"></script>
 	<script src="js/gmap3.min.js"></script>
 	
 </body>

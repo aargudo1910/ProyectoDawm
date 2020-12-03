@@ -253,6 +253,9 @@ header.active .navbar {
   opacity: 1;
   visibility: visible;
 }
+#im {
+  margin-top: 100px;
+}
 
 #pc {
   color: #000000;
@@ -503,6 +506,11 @@ header a.shopping-cart:hover {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
+#proceso {
+  display: none;
+}
+
 #home-section .tp-caption.Concept-SubTitle a.order-button span {
   display: inline-block;
   font-family: "Gochi Hand", cursive;
