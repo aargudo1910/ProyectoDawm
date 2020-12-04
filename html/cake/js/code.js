@@ -11,14 +11,14 @@ let loadUsuarios =  () => {
         let t=user.Tweet
         let fecha=user.Fecha
           let plantilla = `
-          <div class="usuario  col-md-6 mx-auto ">
+          <div class="usuario  col-md-6  ">
               <div class="parte1 text-center "> 
               <div class=" text-right"> 
               </div>
               <h2 class="nombre"> ${nombre} ${apellido} </h2>
               </div>
               <div class="parte2"> 
-              <h4 class="mat"> Tweet: ${t} </h4>
+              <h4 class="des"> Tweet: ${t} </h4>
               <h5 class="mrp"> Fecha: ${fecha}</h5>
               </p> 
               </div>
@@ -29,17 +29,24 @@ let loadUsuarios =  () => {
       })
 
       .then(function (){
-        var boton,i,j ;
-        boton = document.getElementsByClassName("bt");
-        let contenido = document.getElementsByClassName("usuario");
-       for (i=0;i<boton.length;i++) {  
-       let contenidocard=contenido[i];
-       boton[i].addEventListener("click", (e)=> { 
-       contenidocard.style.display = "none";
-      })
-    }
-     
-    })
+        var input, filter,i;
+        input = document.getElementById("myInput");
+        input.addEventListener("input", (e)=> {
+        filter = input.value.toUpperCase();
+        let conttweet = document.getElementsByClassName("usuario");
+        for (i = 0; i < conttweet.length; i++) {
+            let textdiv =conttweet[i].getElementsByClassName("des")[0].innerHTML
+            console.log(textdiv)
+            if (textdiv) {
+              if (textdiv.toUpperCase().indexOf(filter) > -1) {
+                conttweet[i].style.display = "";
+              } else {
+                conttweet[i].style.display = "none";
+              }
+            }
+          } 
+        })
+      }) 
 
       .catch(function (error){
           console.log("Error"+error.message)

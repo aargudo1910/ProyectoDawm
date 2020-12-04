@@ -511,6 +511,16 @@ header a.shopping-cart:hover {
   border: 1px black solid;
   padding: 25px;
 }
+
+#myInput {
+  margin: 25px;
+  padding: 5px 200px 5px 200px;
+}
+
+.inp {
+  text-align: center;
+}
+
 .usuario h2 {
   font-size: 30px;
 }
