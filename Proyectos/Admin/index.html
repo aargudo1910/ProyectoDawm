@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- start linking  -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/app.css">
+  <!-- icon -->
+  <link rel="icon" href="img/log.png">
+  <!-- end linking -->
+  <title>Waffle Stop - Admin</title>
+</head>
+<body>
+<!-- start admin -->
+<section id="admin">
+  <!-- start sidebar -->
+  <div class="sidebar">
+    <!-- start with head -->
+    <div class="head">
+      <div class="logo">
+        <img src="./img/adminn.png" alt="">
+      </div>
+    </div>
+    <!-- end with head -->
+    <!-- start the list -->
+    <div id="list">
+      <ul class="nav flex-column">
+        <li class="nav-item"><a href="index.html" class="nav-link active" ><i class="fa fa-adjust"></i>Panel de Control</a></li>
+        <!-- end user interface submenu -->
+        <!-- start with charts -->
+        <!-- start charts submenue -->
+     
+        <!-- end charts submenue -->
+        <!-- end with charts -->
+     
+      </ul>
+    </div>
+    <!-- end the list -->
+  </div>
+  <!-- end sidebar -->
+  <!-- start content -->
+  <div class="content">
+    <!-- start content head -->
+    <div class="head">
+      <!-- head top -->
+      <div class="top">
+        <div class="left">
+          <button id="on" class="btn btn-info"><i class="fa fa-bars"></i></button>
+          <button id="off" class="btn btn-info hide"><i class="fa fa-align-left"></i></button>
+          <button class="btn btn-info hidden-xs-down"><i class="fa fa-expand-arrows-alt"></i></button>
+          <button class="btn btn-info hidden-xs-down"><i class="fa fa-home"></i>Principal</button>
+        </div>
+        <div class="right">
+          <button class="btn btn-info hidden-xs-down"><i class="fa fa-bell"></i></button>
+          <button class="btn btn-info hidden-xs-down"><i class="fa fa-envelope"></i></button>
+          <div class="dropdown">
+            <button class="btn btn-info dropdown-toggle" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Juan L</button>
+            <div class="dropdown-menu" aria-labelledby="userDropdown">
+             <a class="dropdown-item" href="#">Perfil</a>
+             <a class="dropdown-item" href="#">Configuraciones</a>
+             <a class="dropdown-item" href="#">Cerrar sesion</a>
+           </div>
+          </div>
+        </div>
+      </div>
+      <!-- end head top -->
+      <!-- start head bottom -->
+      <div class="bottom">
+        <div class="left">
+          <h1>Principal</h1>
+        </div>
+        <div class="right">
+        
+        </div>
+      </div>
+      <!-- end head bottom -->
+    </div>
+    <!-- end content head -->
+    <!-- start with the real content -->
+    <div id="real">
+      <div class="row">
+        <!-- start head content         -->
+        <div class="col-lg-4">
+          <!-- avtive -->
+          <div class="activeMode">
+            <div class="card">
+              <h1>Mostrar iteracion</h1>
+              <a href="" class="btn btn-info">Activar</a>
+            </div>
+          </div>
+          <!-- end active -->
+          <!-- Regster Users -->
+          <div class="regsterUsers">
+            <div class="card">
+              <div class="card-top">
+                <h1>526</h1>
+                <i class="fa fa-users"></i>
+              </div>
+              <div class="card-bottom">
+                <p>Numero De personas que navegaron Waffle Stop este mes</p>
+              </div>
+            </div>
+          </div>
+          <!-- end  Regster Users-->
+        </div>
+        <div class="col-lg-8">
+          <div id="money">
+            <div class="card">
+              <div id="chart" style="width:100%; height:270px;"></div>
+            </div>
+          </div>
+        </div>
+        <!-- end head content -->
+        <!-- start analytics -->
+     
+      
+        <div class="col-lg-6">
+          <div class="analytics">
+            <div class="card">
+              <div class="icon"><i class="fa fa-users"></i></div>
+              <div class="text">
+                <h1>44</h1>
+                <p>Nuevos suscritos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="analytics">
+            <div class="card">
+              <div class="icon"><i class="fa fa-envelope"></i></div>
+              <div class="text">
+                <h1>83</h1>
+                <p>Total emails recibidos </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end analytics -->
+       
+        <!-- end user -->
+        <!-- start user -->
+        <div class="col-lg-12">
+          <div class="users">
+            <div class="card">
+              <h1 class="head">Mensajes Nuevos</h1>
+              <div class="user">
+                <div class="uImg"><img src="img/act/5.jpg" alt=""></div>
+                <div class="info">
+                  <h1>Martin Andrade</h1>
+                  <p>Informacion sobre el resturante</p>
+                </div>
+                <div class="type">
+                  <div class="btn btn-primary">read</div>
+                </div>
+              </div>
+              <div class="user">
+                <div class="uImg"><img src="img/act/6.jpg" alt=""></div>
+                <div class="info">
+                  <h1>Josephine Ruiz</h1>
+                  <p>Review del local</p>
+                </div>
+                <div class="type">
+                  <div class="btn btn-primary">read</div>
+                </div>
+              </div>
+              <div class="user">
+                <div class="uImg"><img src="img/act/7.jpg" alt=""></div>
+                <div class="info">
+                  <h1>David Pozo</h1>
+                  <p>Solicitud de empleo</p>
+                </div>
+                <div class="type">
+                  <div class="btn btn-primary">read</div>
+                </div>
+              </div>
+              <div class="user">
+                <div class="uImg"><img src="img/act/8.jpg" alt=""></div>
+                <div class="info">
+                  <h1>Maria Plaza</h1>
+                  <p>Mas informacion</p>
+                </div>
+                <div class="type">
+                  <div class="btn btn-primary">read</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end user -->
+
+      
+
+        <!-- start chatts -->
+        <div class="col-lg-6">
+          <div class="card">
+            <div id="IndexChartOne" style="height: 320px;" ></div>
+          </div>
+        </div>
+        <!-- end charts -->
+
+        <!-- start chatts -->
+        <div class="col-lg-6">
+          <div class="card">
+            <div id="IndexChartTwo" style="height: 320px;" ></div>
+          </div>
+        </div>
+        <!-- end charts -->
+
+      </div>
+    </div>
+    <!-- end the real content -->
+  </div>
+  <!-- end content -->
+</section>
+<!-- end admin -->
+<!-- start screpting -->
+<script src="js/jquery.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/highcharts.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/app.js"></script>
+<!-- end screpting -->
+</body>
+</html>
