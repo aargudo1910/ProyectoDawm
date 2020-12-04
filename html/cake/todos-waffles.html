@@ -14,6 +14,7 @@
 	<link rel="icon" type="image/svg" href="images/logopng.png" />	
 	<link rel="stylesheet" href="css/foody.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="./introjs/introjs.css">
 
 </head>
 <body>
@@ -57,11 +58,11 @@
 									<li><a href="under-construction.html">Proximamente</a></li>
 								</ul>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item" >
 								<a class="nav-link" href="contact.html">Ubicación</a>
 							</li>
 						</ul>
-						<a href="./shopping-cart.html" class="shopping-cart"><i class="fa fa-shopping-bag"></i><span>2</span></a>
+						<a data-step="4" data-intro="Dale click en el carrito para poder procesar tu compra" href="./shopping-cart.html" class="shopping-cart"><i class="fa fa-shopping-bag"></i><span>2</span></a>
 					</div>
 				</div>
 			</nav>
@@ -81,10 +82,10 @@
 			================================================== -->
 		<section class="small-menu-section">
 			<div class="container">
-				<div class="menu-box">
+				<div class="menu-box" id="psicologos" data-step="1" data-intro="Aquí puedes ver los waffles que ofrece la pagina">
 					<h1 class="menu-title">~ waffles ~</h1>
 					<div class="row">
-						<div class="col-lg-4 col-md-6">
+						<div class="col-lg-4 col-md-6" data-step="2" data-intro="Aqui puedes verificar detalles de tu waffle como ingredientes y precio">
 							<div class="menu-post">
 								<div class="menu-content">
 									<div class="image-holder"><img src="upload/menu/waffleclasico.jpg" alt=""></div>
@@ -95,7 +96,7 @@
 								</div>
 								<div class="menu-price-order">
 									<span class="price">$3.00</span>
-									<a href="#" class="order">Ordenar</a>
+									<a href="#" class="order" data-step="3" data-intro="Da click en ordenar para agregar tu waffle deseado en el carrito de compras">Ordenar</a>
 									<a href="#" class="details">Detalles</a>
 								</div>
 							</div>
@@ -458,6 +459,8 @@
 	<script src="js/script.js"></script>
     <script src="https://www.google.com/maps/d/u/0/embed?mid=1arIlC8SF9yfASammRv-mVPebAtL6JvFi"></script>
 	<script src="js/gmap3.min.js"></script>
+	<script src="./introjs/intro.js"></script>
+	<script src="./js/in.js"></script>
 	
 </body>
 </html>
