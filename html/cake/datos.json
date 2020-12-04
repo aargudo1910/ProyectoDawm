@@ -1,0 +1,87 @@
+[
+	{
+		"Nombre": "Juan",
+		"Apellido": "Loor",
+		"Tweet": "Muy chevere el local, espero ir pronto de nuevo",
+		"Fecha": "12/11/20"
+
+	},
+	{
+		"Nombre": "Miranda",
+		"Apellido": "Velez",
+		"Tweet": "Bonito lugar y rica comida",
+		"Fecha": "04/11/20"
+
+	},
+	{
+		"Nombre": "David",
+		"Apellido": "Tumbaco",
+		"Tweet": "El waffle brownie es el mejor waffle que he probado en mi vida !",
+		"Fecha": "10/11/20"
+
+	},
+	{
+		"Nombre": "Nathaly",
+		"Apellido": "Pozo",
+		"Tweet": "Que rica comida, me encanta la musica que ponen en el local.",
+		"Fecha": "02/11/20"
+
+    },
+    {
+		"Nombre": "Jose",
+		"Apellido": "Loor",
+		"Tweet": "Muy chevere el local, espero ir pronto de nuevo",
+		"Fecha": "12/11/20"
+
+	},
+	{
+		"Nombre": "Tania",
+		"Apellido": "Velez",
+		"Tweet": "Ya quiero que sea sabado para ir a Waffle Stop nuevamente !!",
+		"Fecha": "04/11/20"
+
+	},
+	{
+		"Nombre": "Said",
+		"Apellido": "Tumbaco",
+		"Tweet": "El waffle brownie es el mejor waffle que he probado en mi vida !",
+		"Fecha": "10/11/20"
+
+	},
+	{
+		"Nombre": "Dayana",
+		"Apellido": "Pozo",
+		"Tweet": "Que rica comida, me encanta la musica que ponen en el local.",
+		"Fecha": "02/11/20"
+
+    },
+    {
+		"Nombre": "Pilar",
+		"Apellido": "Loor",
+		"Tweet": "Muy chevere el local, espero ir pronto de nuevo",
+		"Fecha": "12/11/20"
+
+	},
+	{
+		"Nombre": "Javier",
+		"Apellido": "Velez",
+		"Tweet": "Bonito lugar",
+		"Fecha": "04/11/20"
+
+	},
+	{
+		"Nombre": "Andrea",
+		"Apellido": "Tumbaco",
+		"Tweet": "El waffle brownie es el mejor waffle que he probado en mi vida !",
+		"Fecha": "10/11/20"
+
+	},
+	{
+		"Nombre": "Maria",
+		"Apellido": "Pozo",
+		"Tweet": "Que rica comida, me encanta la musica que ponen en el local.",
+		"Fecha": "02/11/20"
+
+    }
+    
+]
