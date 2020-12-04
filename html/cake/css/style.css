@@ -525,6 +525,24 @@ header a.shopping-cart:hover {
   font-size: 30px;
 }
 
+#ma {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+#fo {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.otro {
+  margin: 2px solid black;
+  transform: translateX(-20%);
+}
+
+#ma h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
 #proceso {
   display: none;
 }
