@@ -507,6 +507,14 @@ header a.shopping-cart:hover {
   border-radius: 50%;
 }
 
+.usuario {
+  border: 1px black solid;
+  padding: 25px;
+}
+.usuario h2 {
+  font-size: 30px;
+}
+
 #proceso {
   display: none;
 }
