@@ -45,7 +45,8 @@ const MONGODB_URI = `mongodb://${config.MONGODB_HOST}/${config.MONGODB_DATABASE}
 mongoose.connect('mongodb://localhost/wafflestop',{
   useCreateIndex: true,
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
+  useUnifiedTopology: true
 })
   .then(db => console.log('MongoDB is connected'))
   .catch(err => console.error(err));

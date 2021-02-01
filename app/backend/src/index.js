@@ -22,6 +22,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+/*
 app.use(session({
   secret: 'wafflestop',
   resave: false,
@@ -40,6 +41,7 @@ app.use((req, res, next) => {
   app.locals.user = req.user;
   next();
 });
+*/
 
 // Routes
 app.use(require('./routes/index'));
